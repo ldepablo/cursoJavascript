@@ -11,9 +11,20 @@ const medidas = {
     medida: '1 metro'
 }
 
+// anade los valores de medidas a producto, y adem'as devuelve producto
+// console.log(producto);
+// console.log(medidas);
+// let resultado = Object.assign(producto, medidas)
+// console.log(producto);
+// console.log(medidas);
 
-// Otra forma de hacerlo que se considera más moderna es con algo llamado el Spread Operator o Rest Operator
 
-const resultado = { ...producto, ...medidas};
+// Spread Operator o Rest Operator no modifica los argumentos
+// console.log(producto);
+// console.log(medidas);
+let resultado2 = { ...producto, ...medidas};
+// console.log(producto);
+// console.log(medidas);
 
-console.log(resultado);
+
+console.log(resultado2);
