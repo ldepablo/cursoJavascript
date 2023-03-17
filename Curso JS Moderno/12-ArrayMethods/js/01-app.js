@@ -37,3 +37,4 @@ const carrito = [
 //     { nombre: 'Otro producto', precio: 1000 }
 // ]
 // console.log(carrito.concat(carrito2))
+// console.log([...carrito, ...carrito2])
