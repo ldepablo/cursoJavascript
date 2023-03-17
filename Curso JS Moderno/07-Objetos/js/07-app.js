@@ -39,10 +39,11 @@ carrito.shift()
 console.table(carrito);
 
 console.log("5. Eliminamos n elementos desde la posición i");
+const otroCarrito = [producto1, producto2, producto3, producto4]
 const i = 1
 const n = 2
 carrito.splice(i, n)
-console.table(carrito);
+console.table(otroCarrito);
 
 
 
